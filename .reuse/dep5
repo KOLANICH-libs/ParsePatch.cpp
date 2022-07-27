@@ -1,0 +1,10 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: ParsePatch.cpp
+
+Files: **/*.cpp **/*.hpp
+Copyright: Mozilla Corporation
+License: MPL-2.0
+
+Files: .editorconfig .gitmodules .gitignore .github ReadMe.md build.ninja Doxyfile CMakeLists.txt **/CMakeLists.txt .clang-format
+Copyright: 2022 KOLANICH
+License: Unlicense

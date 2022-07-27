@@ -1,0 +1,11 @@
+[submodule "cmake/Boilerplate"]
+	path = cmake/Boilerplate
+	url = https://codeberg.org/KOLANICH-libs/Boilerplate.cmake
+
+[submodule "cmake/DoxygenUtils"]
+	path = cmake/DoxygenUtils
+	url = https://codeberg.org/KOLANICH-libs/DoxygenUtils.cmake
+
+[submodule "tests/testSuite"]
+	path = tests/json/testDataset
+	url = https://codeberg.org/fileTestSuite/patch.fts
