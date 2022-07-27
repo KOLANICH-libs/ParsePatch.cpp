@@ -1,0 +1,5 @@
+/build
+/docs
+/CMakeLists.txt.user
+/rust-parsepatch
+*.orig

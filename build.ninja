@@ -1,0 +1,11 @@
+#!/usr/bin/env -S ninja -f 
+
+cpp = clang++
+
+rule cpp
+  command = $cpp -fcolor-diagnostics -ferror-limit=100500 --std=gnu++2b -O3 -MT $out -MF $out.d -I./include -o $out -c $in
+  description = Host-compile $out
+  depfile = $out.d
+  deps = gcc
+
+build parsepatch.o: cpp ./src/ParsePatch.cpp
