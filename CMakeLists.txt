@@ -5,6 +5,7 @@ project("ParsePatch")
 set("PROJECT_DESCRIPTION" "A C++ port of https://github.com/mozilla/rust-parsepatch MPL-2.0-licensed patch file parsing library.")
 set("PROJECT_HOMEPAGE_URL" "https://codeberg.org/KFmts/ParsePatch.cpp")
 set(CPACK_PACKAGE_VENDOR "KOLANICH")
+message(STATUS "We have moved from M$ GitHub to ${PROJECT_HOMEPAGE_URL}, read why on https://codeberg.org/KOLANICH/Fuck-GuanTEEnomo . ")
 
 set(CPACK_PACKAGE_VERSION_MAJOR "0")
 set(CPACK_PACKAGE_VERSION_MINOR "2")
